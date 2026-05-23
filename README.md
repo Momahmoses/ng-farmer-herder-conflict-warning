@@ -1,6 +1,6 @@
-# ⚠️ Farmer-Herder Conflict Early Warning System — Nigeria
+# Farmer-Herder Conflict Early Warning System, Nigeria
 
-> Spatiotemporal ML system that forecasts farmer-herder conflict incidents at the LGA level 90 days ahead using satellite vegetation data, rainfall anomalies, market stress, and historical ACLED conflict patterns — giving security agencies and peacebuilders lead time to deploy mediators instead of troops.
+> Spatiotemporal ML system that forecasts farmer-herder conflict incidents at the LGA level 90 days ahead using satellite vegetation data, rainfall anomalies, market stress, and historical ACLED conflict patterns, giving security agencies and peacebuilders lead time to deploy mediators instead of troops.
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![LightGBM](https://img.shields.io/badge/LightGBM-4.1-yellow.svg)](https://lightgbm.readthedocs.io)
@@ -11,7 +11,7 @@
 
 ## The Problem
 
-Nigeria's farmer-herder crisis kills **1,500–2,000 people annually** and displaces hundreds of thousands. Security agencies respond reactively — troops arrive after villages are already burned. The violence is structurally predictable: it spikes when:
+Nigeria's farmer-herder crisis kills **1,500–2,000 people annually** and displaces hundreds of thousands. Security agencies respond reactively, troops arrive after villages are already burned. The violence is structurally predictable: it spikes when:
 - Vegetation fails (NDVI drops → grazing scarcity)
 - Rainfall deficits displace herders from traditional routes
 - Food prices spike (economic stress)
@@ -23,7 +23,7 @@ An AI system integrating these signals can forecast violence-prone districts 90 
 
 ## Solution
 
-A spatiotemporal ensemble (LightGBM + LSTM) trained on 14 years of ACLED conflict data, CHIRPS rainfall, MODIS NDVI, FEWS NET market prices, and NBS socioeconomic data — predicting LGA-level conflict probability with SHAP explanations for each forecast.
+A spatiotemporal ensemble (LightGBM + LSTM) trained on 14 years of ACLED conflict data, CHIRPS rainfall, MODIS NDVI, FEWS NET market prices, and NBS socioeconomic data, predicting LGA-level conflict probability with SHAP explanations for each forecast.
 
 ---
 
